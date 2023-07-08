@@ -1,0 +1,1 @@
+{"firstName":"Bart","lastName":"Johnson","isAlive":true,"age":57,"address":{"streetAddress":"105 Murdock","city":"Princeton","state":"WV","postalCode":"24740"},"phoneNumbers":[{"type":"home","number":"304-888-5686"},{"type":"cell","number":"304-888-3023"}],"children":[{"name":"Justine Johnson","age":29}],"spouse":"Bobbi Johnson"}
