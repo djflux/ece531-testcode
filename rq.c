@@ -9,15 +9,15 @@ char *stringRemoveNonAlphaNum(char *str)
 	char c;
 	char *tmp = malloc(sizeof(str) + 1);
 
-        while ((c = str[i]) != '\0') {
-                if (isalnum(c)) {
-                        tmp[j] = str[i];
-                        i++;
-                        j++;
-                } else {
-                        i++;
-                }
-        }
+	while ((c = str[i]) != '\0') {
+		if (isalnum(c)) {
+			tmp[j] = str[i];
+			i++;
+			j++;
+		} else {
+			i++;
+		}
+	}
 
 	tmp[j] = '\0';
 
